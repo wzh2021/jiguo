@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width:1400px;
+    max-width:1900px;
+    height:100%;
+    margin: 0 auto;
+}
+/* 版心 */
+.same2{
+    width: 100%;
+}
+.same{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 头部 */
+.header{
+    border-bottom: 1px solid #D9D9D9;
+    /* box-shadow: 0 0px 15px 0px #cecfcf inset; */
+}
+header{
+    height: 75px;
+}
+header img{
+    width: 134px;
+    height: 53px;
+    margin-top: 11px;
+}
+header ul{
+    margin-top: -30px;
+    margin-left: 197px;
+}
+header ul li{
+    width: 80px;
+    height: 20px;
+    float: left;
+    font-weight: 100;
+}
+header ul li:nth-of-type(5){width: 33px;}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+header ul li:nth-of-type(3) a{color: coral;}
+header img:nth-of-type(2){
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: -8px;
+    margin-left: 336px;
+}
+header button{
+    border:1px solid coral;
+    color: coral;
+    width: 52px;
+    height: 31px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -16px;
+}
+/* 主体部分 */
+nav{
+    height: 4900px;
+    background-color: #F6F6F6;
+}
+nav p:nth-of-type(1){
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    color: #C4B8B8;
+}
+.penpal{
+    width: 700px;
+    height: 124px;
+    background-color: white;
+    border-top: 1px solid transparent;
+    position: relative;
+}
+.penpal h1{
+    margin-top: 32px;
+    margin-left: 25px;
+    color: #3F4C69;
+}
+.penpal p{
+    margin-left: 25px;
+    color: black !important;
+}
+.penpal span{color: #C4B8B8;}
+.penpal span:nth-of-type(1){
+   margin-left: 10px;
+}
+.penpal span:nth-of-type(2){
+    position: absolute;
+    left: 600px;
+}
+.box{
+    width: 268px;
+    height: 108px;
+    border: 1px solid #EBEBEB;
+    position: absolute;
+    left: 735px;
+    top: 0px;
+    border-radius: 10px;  
+}
+.box div{
+    width:133px;
+    height: 108px;
+    background-color:white;
+    float: left;
+    border-radius:10px 0px 0px 10px;
+    line-height: 139px;
+    text-align: center;
+    font-size: 14px;
+    color: #C4B8B8;
+    background-image: url(../img/xin.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 53px 25px;
+}
+.box div:nth-of-type(2){
+    float: right;
+    border-radius:0px 10px 10px 0px;
+    background-image:url(../img/share_yj1.png)
+}
+.name{
+    width: 700px;
+    height: 450px;
+    margin-top: 2px;
+    background-color: white;
+    padding: 22px;
+    box-sizing: border-box;
+}
+.name p:nth-of-type(1){
+    width: 645px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+}
+/* ul部分 */
+
+.ul_{
+    width: 700px;
+    padding: 22px;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+.ul_ .first{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.ul_ .first:nth-of-type(1){margin-top: 0px;}
+.ul_ li{
+    margin-top: 10px;
+}
+.ul_ li div{
+    font-size: 14px;
+}
+.ul_ li img{
+    width: 656px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.ul_ li:nth-of-type(4) img:nth-of-type(1){
+    margin-top: 0px;
+}
+.ul_ .next{
+    font-size: 14px;
+    color: #9DA2A5;
+}
+/* 页脚 */
+footer{
+    height: 360px;
+    background-color: #4F4F4F;
+}
+.footer{
+    height: 360px;
+    position: relative;
+}
+.footer img{
+    width: 160px;
+    height: 160px;
+    margin-top: 40px;
+}
+.footer img:nth-of-type(2){
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    margin-top: 40px;
+    left: 178px;
+}
+.footer p{
+    color: #938C7C;
+    position: absolute;
+    left: 178px;
+    font-size: 12px;
+    top:110px;
+}
+.footer p:nth-of-type(2){top:125px}
+.footer p:nth-of-type(3){top: 168px;}
+.footer p:nth-of-type(4){top:184px}
+.footer ul{
+    position: absolute;
+    top:40px;
+    left: 344px;
+}
+.footer li{
+    width: 96px;
+    height: 22px;
+    font-size: 12px;
+    color: #938C7C;
+}
+.footer ul li:nth-of-type(1){
+    height: 43px;
+    color: white;
+}
+.footer ul:nth-of-type(2){
+     left: 463px;
+}
+.footer ul:nth-of-type(2) li{
+    width: 70px;
+}
+.footer ul:nth-of-type(3){
+    left: 533px;
+}
+.footer ul:nth-of-type(3) li{
+   width: 65px;
+}
+.footer ul:nth-of-type(4){
+    left: 626px;
+}
+.footer ul:nth-of-type(4) li{
+   width: 150px;
+}
+.footer ul:nth-of-type(5){
+    left: 800px;
+}
+.footer ul:nth-of-type(5) li{
+   width: 170px;
+}
+.footer p:last-of-type{
+    top: 310px;
+    left: 462px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
