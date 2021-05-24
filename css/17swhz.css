@@ -24,6 +24,7 @@ body{
 }
 header{
     height: 75px;
+    position: relative;
 }
 header img{
     width: 134px;
@@ -49,9 +50,9 @@ header ul li a{
 header img:nth-of-type(2){
     width: 20px;
     height: 20px;
-    float: left;
-    margin-top: -8px;
-    margin-left: 336px;
+    position: absolute;
+    right: 90px;
+    top:18px
 }
 header button{
     border:1px solid coral;
