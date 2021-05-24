@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报告——最新</title>
+</head>
+<link rel="stylesheet" href="./css/14bg.css">
+<body>
+    <div class="header same2">
+        <header class="same">
+            <img src="./img/logonew.png" alt="">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">酷玩</a></li>
+                <li><a href="./05dg-zj.html">导购</a></li>
+                <li><a href="">试用</a></li>
+                <li><a href="./14bz-zx.html">报告</a></li>
+            </ul>
+            <img src="./img/search.png" alt="">
+            <button>注册</button>
+        </header>
+       </div>
+       <nav class="same">
+          <p>体检报告</p>
+          <div>最新</div>
+          <div>最热</div>
+       </nav>
+<section class="same2">
+      <div class="section same">
+         <ul id="ul">
+            <!-- <li>
+                <img src="./img/bg1.jpg" alt="">
+                <div>
+                    <p>空气净化器里面的学问多的惊呆你,你选对了吗？</p>
+                    <p>&hearts;<span>苏苏</span><span>2016-01-25</span><span>3</span><span>3</span></p>
+                </div>
+            </li>
+            <div>南朝四百八十寺，多少楼台烟雨中</div>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> -->
+         </ul>
+      </div>
+      <p id="pp"><span>&or;</span>点击加载更多</p>
+      <aside>
+        <div class="d1">极果体验师</div>
+        <img src="./img/tiyanImg.jpg" alt="">
+        <div class="j1">福利</div>
+        <div class="j2">第一时间体验新品,大众试用优先通过,还有定向邀请试用,新品玩到手软!
+        </div>
+        <div class="j1">要求</div>
+        <div class="j2">是某个领域的大神级玩家,在社交网络或圈子里有大影响力,善写作会拍摄。
+        </div>
+        <div class="j1">申请</div>
+        <div class="j2">1.关注极果公众号:jguojguo<br>(或扫描下方二维码)
+            <br>2.在公众号内回复:体验师
+            </div>
+        <div class="d2">关注我们</div>
+        <img src="./img/myCode.jpg" alt="">
+    </aside>
+</section>
+
+       <footer class="same2">
+        <div class="footer same">
+            <img src="./img/code.png" alt="">
+            <img src="./img/logoImg.jpg" alt="">
+            <p>全球酷玩试用导购平台</p>
+            <p>酷-新奇-好玩-品质</p>
+            <p>微信添加“JguoJguo”</p>
+            <p>获取我们的服务</p>
+            <p>&copy; 2016 极果版权所有</p>
+            <ul>
+                <li><a href="./18mfss.html">免费试用</a></li>
+                <li>试用流程</li>
+                <li>如何提高成功率</li>
+            </ul>
+            <ul>
+                <li>友情链接</li>
+                <li>智东西</li>
+                <li>搜狐IT</li>
+                <li>搜狐数码</li>
+                <li>凤凰数码</li>
+                <li>泡泡网</li>
+                <li>ZUK社区</li>
+                <li>极客公园</li>
+                <li>果库</li>
+            </ul>
+            <ul>
+                <li></li>
+                <li>WEIBUST</li>
+                <li>腾讯科技</li>
+                <li>凤凰科技</li>
+                <li>PConline</li>
+                <li>3W咖啡</li>
+                <li>亿觅emie</li>
+                <li>易迅易启玩</li>
+            </ul>
+            <ul>
+                <li>购买攻略</li>
+                <li>美亚海淘教程</li>
+                <li>日亚海淘攻略</li>
+                <li>海淘转运攻略</li>
+                <li>kickstarter 众筹购买攻略</li>
+                <li>indiegogo 众筹购买攻略</li>   
+            </ul>
+            <ul>
+                <li><a href="./17swhz.html">厂商合作</a></li>
+                <li>关于极果</li>
+                <li>联系我们</li>
+                <li>商务合作:BD@jiguo.com</li>
+                <li>CEO邮箱:CEO@jiguo.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="./js/14bg.js"></script>
+<!-- 引入模板引擎 -->
+<script src="./js/doT.min.js"></script>
+<script id="dot" type="text-x-dot-template"> 
+<!-- 展示数据 -->
+{{~it:value:index}}
+<li>
+    <img src='{{=value.img}}' alt="">
+    <div>
+        <p>{{=value.text}}</p>
+        <p>&hearts;<span>{{=value.uName}}</span><span>{{=value.endTime}}</span><span>{{=value.num}}</span><span>{{=value.num}}</span></p>
+    </div>
+</li>
+<div>南朝四百八十寺，多少楼台烟雨中</div>
+{{~}}
+</script>
