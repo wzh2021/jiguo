@@ -72,3 +72,7 @@ console.log(btn);
 btn.onclick=function(){
     window.open('./16zcyz.html')
 }
+
+setTimeout(() => {
+    animation("ul1");
+}, 300);
