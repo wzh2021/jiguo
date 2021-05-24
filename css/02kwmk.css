@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clearfix::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+body{
+    background-color: #F7F7F7;
+}
+/* 返回顶部 */
+.fhdb{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #F6BF6F;
+    right: 150px;
+    bottom: 50px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+/*--------------- 头部------------------  */
+header{
+    background-color: white;
+    width: 1900px;
+    /* height: 500px; */
+    border: 3px solid #999999;
+    border-top: none;
+    box-shadow: 2px 2px 2px inset rgba(226, 226, 226, 0.5);
+    box-sizing: border-box;
+}
+
+.nav_container{
+    width: 1400px;
+    height: 104px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+}
+.nav_list{
+    display: inline-block;
+}
+.nav_list li{
+    float: left;
+    margin-left: 50px;
+}
+.nav_list li:nth-of-type(2) a{
+    color: #fa7b54;
+}
+.nav_list li a{
+    font-size: 20px;
+    color: #999;
+    line-height: 104px;
+}
+
+.seek{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.login{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    border: 1px solid #FBA48A;
+    padding: 5px 10px;
+    color: #FBA48A;
+    font-weight: 500;
+    cursor: pointer;
+}
+.title_kw{
+    width: 1900px;
+    text-align: center;
+    background-color: white;
+}
+.title_kw>span{
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.title_kw > p> a {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+}
+.title_bdcor{
+    color: tomato !important;
+    border-bottom: 5px solid red;
+}
+
+/* 内容 */
+.fxkw{
+    width: 1900px;
+    background-color: #F7F7F7;
+}
+.section_container{
+    width: 1400px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.fxkwAll img{
+    height: 183px;
+    width: 312px;
+}
+.fxkwAll div:nth-of-type(4),
+.fxkwAll div:nth-of-type(8),
+.fxkwAll div:nth-of-type(12),
+.fxkwAll div:nth-of-type(16)
+{
+    margin-right: 0;
+}
+.fxkwAll>div{
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 20px;
+    width: 312px;
+    height: 310px;
+    border: 1px solid #d4d4d4;
+    box-sizing: border-box;
+    font-size: 18px;
+     position: relative;
+}
+.fxkwAll>div>a{
+    margin-top: 10px;
+    display: inline-block;
+    color: black;
+    margin-left: 10px;
+}
+.fxkwAll>div>a:nth-of-type(2){
+    margin-top: -5px;
+    color: #999;
+    font-size: 14px;
+}
+
+.fxkwAll>div>p{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+}
+.fxkwAll>div>p>span{
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    color: #999;
+    cursor: pointer;
+}
+.fxkwAll>div>p>span:nth-of-type(1){
+    font-size: 18px;
+    color: tomato;
+    left: 10px;
+}
+.fxkwAll>div>p>span:nth-of-type(2){
+    width: 40px;
+    right: 60px;
+    text-align: right;
+    background: url(../img/zan.png) no-repeat 5px 3px;
+    background-size: 20px;
+}
+.fxkwAll>div>p>span:nth-of-type(3){
+    width: 40px;
+    right: 10px;
+    text-align: right;
+    background: url(../img/reply.png) no-repeat 5px 3px;
+    background-size: 20px;
+}
+
+.section_container .jz{
+    width: 200px;
+    height: 50px;
+    margin: 30px 600px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: tomato;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.section_container .jz>img{
+    width: 30px;
+    height: 15px;
+}
+
+/* 酷玩品类 */
+.kwpl{
+    display: none;
+}
+.kwpl_div{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.kwpl_div>p{
+    font-size: 20px;
+    text-indent: 50px;
+    margin: 10px 0;
+    border-left: 5px solid red;
+}
+.kwpl_div>ul{
+    width: 100%;
+    color: #999;
+    margin: 10px 0;
+    padding: 10px 0 20px 0;
+}
+.kwpl_div>ul>li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    margin: 10px 0 10px 40px;
+    cursor: pointer;
+}
+.kwpl_div>ul>li:hover{
+    color: red;
+}
+.kwpl_div>ul>li>img{
+    margin-bottom: 10px;
+}
+.kwpl_div>ul:last-child{
+    border-top: 1px dashed #999;
+}
+
+/* 图片闪动动画 */
+@keyframes imgtd{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+
+/* 底部 */
+footer{
+    width: 1900px;
+    height: 500px;
+    background-color: #666;
+    overflow: hidden;
+}
+.footer_container{
+    width: 1400px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.footer_container>div{
+    float: left;
+    margin-left: 30px;
+}
+.footer_container>div li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.footer_container>div li a{
+    color: #999;
+}
+.footer_container>div>h2{
+    margin-bottom: 30px;
+    color: white;
+}
+/* 底部二维码 */
+.footer_container>img{
+    float: left;
+    width: 220px;
+}
+/* 底部logo */
+.footer_logo{
+    float: left;
+    margin-left: 20px;
+    width: 200px;
+}
+.footer_logo>img{
+    width: 200px;
+}
+.footer_logo>p{
+    margin: 20px 0;
+    font-size: 18px;
+    color: #999;
+}
+/* 免费试用 */
+.mfsy{
+    width: 150px;
+    height: 300px;
+
+}
+/* 友情链接 */
+.footer_container .yqlj{
+    width: 240px;
+
+}
+.footer_container .yqlj li{
+    width: 120px;
+    float: left;
+
+}
+/* 购买攻略 */
+.gmgl{
+    width: 200px;
+    height: 300px;
+
+}
+/* 厂商合作 */
+.cshz{
+    width: 230px;
+    height: 300px;
+
+}
+
+.footer_container>p{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    font-size: 20px;
+    color: #999;
+}
