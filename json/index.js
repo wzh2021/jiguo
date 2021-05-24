@@ -4,7 +4,7 @@ fxkw();//发现酷玩
 function bgjx() {
     let bgjx = document.getElementsByClassName("bgjx")[0];
     let xhr = new XMLHttpRequest() || new ActiveXObject();
-    xhr.open("get", "https://1.15.132.9:3000/report/new");
+    xhr.open("get", "http://1.15.132.9:3000/report/new");
     xhr.send();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
@@ -27,7 +27,7 @@ function bgjx() {
 function dgjx() {
     let dgjx = document.getElementsByClassName("dgjxAll")[0];
     let xhr = new XMLHttpRequest() || new ActiveXObject();
-    xhr.open("get", "https://1.15.132.9:3000/guid/new");
+    xhr.open("get", "http://1.15.132.9:3000/guid/new");
     xhr.send();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
@@ -50,7 +50,7 @@ function dgjx() {
 function fxkw() {
     let fxkw = document.getElementsByClassName("fxkwAll")[0];
     let xhr = new XMLHttpRequest() || new ActiveXObject();
-    xhr.open("get", "https://1.15.132.9:3000/play/new");
+    xhr.open("get", "http://1.15.132.9:3000/play/new");
     xhr.send();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
